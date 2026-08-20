@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Data Dock</string>
+    <string name="settings_theme_title">Change Theme</string>
+    <string name="settings_theme_sub_dark">Dark Theme Active</string>
+    <string name="settings_theme_sub_light">Light Theme Active</string>
+    <string name="settings_lang_title">Language</string>
+    <string name="settings_lang_sub">Change the App Language</string>
+    <string name="settings_save_title">Save Results</string>
+    <string name="settings_save_sub">Save Network Usages</string>
+    <string name="dash_today_usage">Today\'s Data Usage</string>
+    <string name="dash_overview">Usage Overview</string>
+    <string name="history_empty">No history recorded yet.</string>
+    <string name="schedule_title">Billing Cycle Reset</string>
+    <string name="schedule_sub">Select the day of the month your data plan limits reset.</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
 </resources>

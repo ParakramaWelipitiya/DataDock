@@ -1,0 +1,16 @@
+<resources>
+    <string name="settings_theme_title">තේමාව වෙනස් කරන්න</string>
+    <string name="settings_theme_sub_dark">අඳුරු තේමාව සක්‍රියයි</string>
+    <string name="settings_theme_sub_light">ආලෝක තේමාව සක්‍රියයි</string>
+    <string name="settings_lang_title">භාෂාව</string>
+    <string name="settings_lang_sub">යෙදුමේ භාෂාව වෙනස් කරන්න</string>
+    <string name="settings_save_title">ප්‍රතිඵල සුරකින්න</string>
+    <string name="settings_save_sub">ජාල භාවිතය සුරකින්න</string>
+    <string name="dash_today_usage">අද දින දත්ත භාවිතය</string>
+    <string name="dash_overview">භාවිත දළ විශ්ලේෂණය</string>
+    <string name="history_empty">තවමත් ඉතිහාසයක් වාර්තා වී නැත.</string>
+    <string name="schedule_title">බිල්පත් චක්‍රය යළි පිහිටුවීම</string>
+    <string name="schedule_sub">ඔබගේ දත්ත සැලසුම් සීමාවන් යළි පිහිටුවන දිනය තෝරන්න.</string>
+    <string name="btn_previous">පෙර</string>
+    <string name="btn_next">ඊළඟ</string>
+</resources>

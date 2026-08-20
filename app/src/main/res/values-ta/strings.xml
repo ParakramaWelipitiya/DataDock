@@ -1,0 +1,16 @@
+<resources>
+    <string name="settings_theme_title">தீம் மாற்று</string>
+    <string name="settings_theme_sub_dark">இருண்ட தீம் செயலில் உள்ளது</string>
+    <string name="settings_theme_sub_light">ஒளி தீம் செயலில் உள்ளது</string>
+    <string name="settings_lang_title">மொழி</string>
+    <string name="settings_lang_sub">பயன்பாட்டு மொழியை மாற்றவும்</string>
+    <string name="settings_save_title">முடிவுகளை சேமி</string>
+    <string name="settings_save_sub">நெட்வொர்க் பயன்பாட்டை சேமிக்கவும்</string>
+    <string name="dash_today_usage">இன்றைய தரவு பயன்பாடு</string>
+    <string name="dash_overview">பயன்பாட்டு கண்ணோட்டம்</string>
+    <string name="history_empty">வரலாறு இன்னும் பதிவு செய்யப்படவில்லை.</string>
+    <string name="schedule_title">பில்லிங் சுழற்சி மீட்டமைப்பு</string>
+    <string name="schedule_sub">உங்கள் தரவுத் திட்ட வரம்புகள் மீட்டமைக்கப்படும் நாளைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="btn_previous">முந்தைய</string>
+    <string name="btn_next">அடுத்து</string>
+</resources>
