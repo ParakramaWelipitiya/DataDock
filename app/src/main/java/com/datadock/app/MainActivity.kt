@@ -15,6 +15,7 @@ import com.datadock.app.ui.screens.MainScreen
 import com.datadock.app.ui.theme.DataDockTheme
 import com.datadock.app.utils.SpeedMonitorService
 import java.util.concurrent.TimeUnit
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -28,6 +29,7 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
 
         scheduleDailyDataLogging()
