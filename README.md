@@ -2,6 +2,13 @@
 
 A privacy-first, offline Android network telemetry tool that tracks live bandwidth usage and daily data limits using a modern Jetpack Compose UI.
 
+<div align="center">
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84)
+![Language](https://img.shields.io/badge/Language-Kotlin-7F52FF)
+![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
+![Offline](https://img.shields.io/badge/Offline-100%25-success)
+</div>
+
 ## App Showcase
 
 <!-- Replace the 'src' paths with the actual names of your screenshot files -->
@@ -34,28 +41,39 @@ A privacy-first, offline Android network telemetry tool that tracks live bandwid
 
 ## Tech Stack & Architecture
 
-* **UI Framework:** 100% Jetpack Compose for a declarative, highly reactive interface.
-* **Local Persistence:** Room (SQLite) database for secure, sandboxed on-device data storage.
-* **Background Processing:** Android WorkManager for battery-efficient daily logging while the device sleeps.
-* **System APIs:** Deep integration with `NetworkStatsManager` and `TrafficStats` for granular network monitoring.
-* **State Management:** Reactive architecture utilizing Kotlin Flows and `collectAsState()` for instantaneous UI updates.
+| Layer | Technology | Purpose |
+|---|---|---|
+| UI Framework | Jetpack Compose | 100% declarative, highly reactive interface |
+| Local Persistence | Room (SQLite) | Secure, sandboxed on-device data storage |
+| Background Processing | Android WorkManager | Battery-efficient daily logging while the device sleeps |
+| System APIs | `NetworkStatsManager`, `TrafficStats` | Granular, low-level network monitoring |
+| State Management | Kotlin Flows + `collectAsState()` | Reactive architecture with instantaneous UI updates |
 
 ## Privacy & Security
 
 Data Dock operates on a strict zero-trust model. All telemetry data is sandboxed exclusively within the device's internal storage. There are no remote REST APIs, third-party analytics, or cloud integrations. This guarantees that personal bandwidth data cannot be leaked, accessed, or monitored externally.
 
-## How to Build and Run
+### Prerequisites
+
+- [Android Studio](https://developer.android.com/studio) (latest stable version recommended)
+- A physical Android device or emulator
+- Git
+### Installation
 
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/ParakramaWelipitiya/DataDock.git
-   
-2. Open the project in Android Studio.
-
+```
+2. Open the project in **Android Studio**.
 3. Allow Gradle to sync and download all required dependencies.
-
 4. Connect a physical Android device or start an Emulator.
+5. Click **Run** (`Shift + F10`).
+> **Note:** You must grant the **Usage Access** permission when prompted in the app to enable bandwidth tracking.
 
-5. Click Run (Shift + F10).
+## Contributing
 
-### Note: You must grant the "Usage Access" permission when prompted in the app to enable bandwidth tracking.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/ParakramaWelipitiya/DataDock/issues).
+
+## License
+
+*No license has been specified yet.* Consider adding one — e.g. [MIT](https://choosealicense.com/licenses/mit/) or [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) — so others know how they're allowed to use this code.
