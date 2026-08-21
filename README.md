@@ -2,7 +2,7 @@
 
 A privacy-first, offline Android network telemetry tool that tracks live bandwidth usage and daily data limits using a modern Jetpack Compose UI.
 
-## 📱 App Showcase
+## App Showcase
 
 <!-- Replace the 'src' paths with the actual names of your screenshot files -->
 <div align="center">
@@ -48,7 +48,7 @@ Data Dock operates on a strict zero-trust model. All telemetry data is sandboxed
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/datadock.git](https://github.com/yourusername/datadock.git)
+   git clone https://github.com/ParakramaWelipitiya/DataDock.git
    
 2. Open the project in Android Studio.
 
