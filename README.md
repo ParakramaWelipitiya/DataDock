@@ -3,10 +3,12 @@
 A privacy-first, offline Android network telemetry tool that tracks live bandwidth usage and daily data limits using a modern Jetpack Compose UI.
 
 <div align="center">
+
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84)
 ![Language](https://img.shields.io/badge/Language-Kotlin-7F52FF)
 ![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
 ![Offline](https://img.shields.io/badge/Offline-100%25-success)
+
 </div>
 
 ## App Showcase
